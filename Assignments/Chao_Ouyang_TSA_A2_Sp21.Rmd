@@ -3,9 +3,9 @@ title: "ENV 790.30 - Time Series Analysis for Energy Data | Spring 2021"
 author: "Chao Ouyang"
 subtitle: Assignment 2 - Due date 02/05/21
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 geometry: margin=2.54cm
 editor_options:
   chunk_output_type: console
