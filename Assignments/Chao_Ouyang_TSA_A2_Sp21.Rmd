@@ -55,6 +55,12 @@ str(energy_data_sub)
 energy_data_sub[, 2:4] <- sapply(energy_data_sub[, 2:4], as.numeric)
 str(energy_data_sub)
 head(energy_data_sub, 10)
+
+energy_data_sub$Month[1]
+energy_data_sub$Month[nrow(energy_data_sub)]
+
+ts_energy <- ts(energy_data_sub[, 2:4], start = c(1973, 1), end = c(2020, 10), frequency = 12)
+head(ts_energy, 10)
 ```
 
 
